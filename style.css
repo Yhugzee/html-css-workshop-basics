@@ -14,10 +14,12 @@ nav {
     padding: .5rem;
     background-color: #f76c6c;
     color: white;
+    display: flex;
+    align-items: center;
 }
 
 nav h1 {
-    font-size: 2rem;
+    font-size: 1rem;
 }
 
 nav h1,
@@ -80,3 +82,11 @@ footer {
     padding: 1rem;
     background-color: #f76c6c;
 }
+
+/* @media screen and (max-width: 360px) {
+    nav {
+        display: flex;
+        justify-content: space-between;
+
+    }
+} */
